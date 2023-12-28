@@ -1,0 +1,8 @@
+.select {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    font-size: 14px;
+    color: aliceblue;
+    gap: 0.1rem;
+}

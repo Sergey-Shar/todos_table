@@ -1,0 +1,22 @@
+.table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 1rem;
+	min-height: 500px;
+	border: 1px solid #494747;
+}
+
+.table thead {
+	color: #fff;
+	border-bottom: 1px solid #494747;
+}
+
+.table tbody tr:nth-child(even) {
+	background-color: #494747;
+}
+
+.table td,
+.table th {
+	padding: 0.5rem;
+	text-align: left;
+}

@@ -1,0 +1,18 @@
+.base-button {
+    background-color: #494747;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.base-button:disabled {
+    background-color: #ccc;
+}
+
+.base-button:active {
+    background-color: #333;
+}
